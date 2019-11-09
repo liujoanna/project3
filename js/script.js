@@ -1,9 +1,9 @@
 function init(){
 	//alert('it works');
 	var el = document.getElementById('canvas');
-	var myLocation = new google.maps.LatLng(37.8269775,-122.4251442);
+	var curLoc = new google.maps.LatLng(37.8269775,-122.4251442);
 	var mapOptions = {
-		center: myLocation,
+		center: curLoc,
 		zoom: 18,
 		mapTypeId: google.maps.MapTypeId.SATELLITE,
 		mapTypeControlOptions: {
@@ -14,7 +14,7 @@ function init(){
 	var myMap = new google.maps.Map(el, mapOptions);
 
 	var marker = new google.maps.Marker({
-		position: myLocation,
+		position: curLoc,
 		map: myMap,
 		animation: google.maps.Animation.BOUNCE,
 		icon: 'lighthouse.png'
