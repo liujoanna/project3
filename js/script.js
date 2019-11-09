@@ -17,10 +17,10 @@ function init(){
 		position: myLocation,
 		map: myMap,
 		animation: google.maps.Animation.BOUNCE,
-		icon: 'iit-icon.png'
+		icon: 'lighthouse.png'
 	});
 
-	var contentString = '<h1>IIT Perlstein Hall</h1><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate odit optio, voluptatem placeat odio dignissimos illo magnam esse asperiores voluptas at iure vero eum, nemo aperiam? Ipsam, atque nobis rem.</p>';
+	var contentString = '<h1>Alcatraz Island</h1><p> Alcatraz Island used to hold functions for a military fort, military prison, and federal prison until it was designated as a National Historial Landmark in 1986. Today, the island is open to tours. </p>';
 
 	var infowindow = new google.maps.InfoWindow({
       content: contentString
