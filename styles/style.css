@@ -132,17 +132,41 @@ nav {
   }
   body{
     background-color: lightblue;
-  }
 
+  }
+  div#d2{
+    background-color: pink;
+    border-color: whitesmoke;
+    border-style: dashed;
+    border-width: 7px;
+    font-size: 0.7vw;
+  }
+  nav{
+    font-size: 0.7vw;
+  }
 }
 
+/*comment this part out to see what it looks like for mobile*/
 @media only screen and (min-width: 703px){
-  /* for ipads and tablets? */
+
   img{
     max-width: 100%;
     max-height: 400px;
   }
   body{
-    background-image: url('envy1.jpg');
+    background-color: whitesmoke;
+  }
+  .envy{
+    background-image: url('bone.jpg');
+  }
+  div#d2{
+    background-color: whitesmoke;
+    border-color: pink;
+    border-style: dotted;
+    border-width: 7px;
+    font-size: 1.2vw;
+  }
+  nav{
+    font-size: 1.2vw;
   }
 }
