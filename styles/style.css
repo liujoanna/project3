@@ -126,8 +126,14 @@ nav {
 
 @media only screen and (min-width: 420px){
   /* scale images, video, etc for mobile phones? */
-  max-width: 20%;
-  max-height: 100px;
+  img{
+    max-width: 20%;
+    max-height: 100px;
+  }
+  body{
+    background-color: lightblue;
+  }
+
 }
 
 @media only screen and (min-width: 703px){
