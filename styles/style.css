@@ -134,7 +134,7 @@ nav {
     background-color: lightblue;
 
   }
-  div#d2{
+  .envy div{
     background-color: pink;
     border-color: whitesmoke;
     border-style: dashed;
@@ -159,7 +159,7 @@ nav {
   .envy{
     background-image: url('bone.jpg');
   }
-  div#d2{
+  .envy div{
     background-color: whitesmoke;
     border-color: pink;
     border-style: dotted;
