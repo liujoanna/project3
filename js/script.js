@@ -1,5 +1,6 @@
+var myMap;
+var marker;
 function init(){
-	//alert('it works');
 	var el = document.getElementById('canvas');
 	var curLoc = new google.maps.LatLng(37.8269775,-122.4251442);
 	var mapOptions = {
@@ -11,14 +12,15 @@ function init(){
 		}
 	};
 
-	var myMap = new google.maps.Map(el, mapOptions);
+	myMap = new google.maps.Map(el, mapOptions);
 
-	var marker = new google.maps.Marker({
+	marker = new google.maps.Marker({
 		position: curLoc,
 		map: myMap,
-		animation: google.maps.Animation.BOUNCE,
-		icon: 'lighthouse.png'
+		icon: 'lighthouse.png',
+    visible: true
 	});
+  marker.setMap(myMap);
 
 	var contentString = '<h1>Alcatraz Island</h1><p> Alcatraz Island used to hold functions for a military fort, military prison, and federal prison until it was designated as a National Historial Landmark in 1986. Today, the island is open to tours. </p>';
 
