@@ -1,7 +1,7 @@
 #wrapper {
   width: 100%;
   height: auto;
-  background-color: #c00;
+  background-color: lightgray;
   margin:0 auto;
   overflow: hidden;
 }
@@ -9,5 +9,8 @@
   width: 100%;
   height: 500px;
   background-color: #ccc;
+  border-style: dotted;
+  border-color: gray;
+  border-radius: 10px;
   margin: 30px auto;
 }
