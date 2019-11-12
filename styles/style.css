@@ -84,6 +84,10 @@ div {
 div#d1 {
    background-color: whitesmoke;
 }
+/* fixed div id */
+div#fixed{
+  width: 1900px;
+}
 
 .index h2,
 .envy h1 {
@@ -120,6 +124,7 @@ nav {
    font-family: 'Nanum Gothic', sans-serif;
    padding: 10px;
 }
+
 
 
 /* Media Queries */
