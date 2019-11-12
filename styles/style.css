@@ -88,6 +88,14 @@ div#d1 {
 div#fixed{
   width: 1900px;
 }
+div#box{
+  margin: 30px;
+  background-color: #ffffff;
+  border: 1px solid black;
+  opacity: 0.6;
+  filter: alpha(opacity=40);
+}
+
 
 .index h2,
 .envy h1 {
@@ -98,6 +106,10 @@ div#fixed{
 
 .italic {
    font-style: italic;
+}
+.wauconda{
+  background-image: url('wauconda.jpg');
+  background-position: top;
 }
 
 #main-navbar {
