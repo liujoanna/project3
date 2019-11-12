@@ -84,18 +84,21 @@ div {
 div#d1 {
    background-color: whitesmoke;
 }
+
+
 /* fixed div id */
-div#fixed{
-  width: 1900px;
-}
-div#box{
-  margin: 30px;
-  background-color: #ffffff;
-  border: 1px solid black;
-  opacity: 0.6;
-  filter: alpha(opacity=40);
+
+div#fixed {
+   width: 1900px;
 }
 
+div#box {
+   margin: 30px;
+   background-color: #ffffff;
+   border: 1px solid black;
+   opacity: 0.6;
+   filter: alpha(opacity=40);
+}
 
 .index h2,
 .envy h1 {
@@ -107,9 +110,10 @@ div#box{
 .italic {
    font-style: italic;
 }
-.wauconda{
-  background-image: url('wauconda.jpg');
-  background-position: top;
+
+.wauconda {
+   background-image: url('wauconda.jpg');
+   background-position: top;
 }
 
 #main-navbar {
@@ -152,54 +156,51 @@ div#box{
 }
 
 
-
 /* Media Queries */
 
-@media only screen and (min-width: 420px){
-  /* scale images, video, etc for mobile phones? */
-  img{
-    max-width: 20%;
-    max-height: 100px;
-  }
-  body{
-    background-color: lightblue;
-
-  }
-
-
-  .envy div{
-    background-color: pink;
-    border-color: whitesmoke;
-    border-style: dashed;
-    border-width: 7px;
-    font-size: 0.7vw;
-  }
-  nav{
-    font-size: 0.7vw;
-  }
+@media only screen and (min-width: 420px) {
+   /* scale images, video, etc for mobile phones? */
+   img {
+      max-width: 20%;
+      max-height: 100px;
+   }
+   body {
+      background-color: lightblue;
+   }
+   .envy div {
+      background-color: pink;
+      border-color: whitesmoke;
+      border-style: dashed;
+      border-width: 7px;
+      font-size: 0.7vw;
+   }
+   nav {
+      font-size: 0.7vw;
+   }
 }
 
-/*comment this part out to see what it looks like for mobile*/
-@media only screen and (min-width: 703px){
 
-  img{
-    max-width: 100%;
-    max-height: 400px;
-  }
-  body{
-    background-color: whitesmoke;
-  }
-  .envy{
-    background-image: url('bone.jpg');
-  }
-  .envy div{
-    background-color: whitesmoke;
-    border-color: pink;
-    border-style: dotted;
-    border-width: 7px;
-    font-size: 1.2vw;
-  }
-  nav{
-    font-size: 1.2vw;
-  }
+/*comment this part out to see what it looks like for mobile*/
+
+@media only screen and (min-width: 703px) {
+   img {
+      max-width: 100%;
+      max-height: 400px;
+   }
+   body {
+      background-color: whitesmoke;
+   }
+   .envy {
+      background-image: url('bone.jpg');
+   }
+   .envy div {
+      background-color: whitesmoke;
+      border-color: pink;
+      border-style: dotted;
+      border-width: 7px;
+      font-size: 1.2vw;
+   }
+   nav {
+      font-size: 1.2vw;
+   }
 }
