@@ -100,29 +100,43 @@ div#fixed{
    font-style: italic;
 }
 
-nav {
+#main-navbar {
+   background-color: whitesmoke;
+}
+
+#main-navbar {
+   overflow: hidden;
+}
+
+#navbar-container {
+   float: left;
    width: 100%;
-   border: 1px solid #ccc;
-   border-width: 1px 0;
-   list-style: none;
+   position: relative;
+   background-color: whitesmoke;
+}
+
+#main-navbar ul {
+   list-style-type: none;
    margin: 0;
    padding: 0;
-   text-align: center;
+   position: relative;
+   left: 50%;
+   float: left;
 }
 
-.nav li {
-   display: inline;
+#main-navbar ul li {
+   float: left;
+   position: relative;
+   right: 50%;
+   display: block;
 }
 
-.nav ul {
-   display: inline;
-}
-
-.nav a {
-   display: inline-block;
-   color: lightslategray;
+#main-navbar ul li a {
+   display: block;
+   padding: 10px 20px;
    font-family: 'Nanum Gothic', sans-serif;
-   padding: 10px;
+   color: lightslategray;
+   text-decoration: none;
 }
 
 
