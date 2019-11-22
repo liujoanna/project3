@@ -93,7 +93,7 @@ ul {
    font-family: 'Nanum Gothic', sans-serif;
 }
 
-div {
+div#default {
    background-color: lightgray;
 }
 
