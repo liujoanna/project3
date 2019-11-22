@@ -99,6 +99,23 @@ div#box {
    opacity: 0.6;
    filter: alpha(opacity=40);
 }
+#wrapper {
+   width: 100%;
+   height: auto;
+   background-color: lightgray;
+   margin: 0 auto;
+   overflow: hidden;
+}
+
+#canvas {
+   width: 100%;
+   height: 500px;
+   background-color: #ccc;
+   border-style: dotted;
+   border-color: gray;
+   border-radius: 10px;
+   margin: 30px auto;
+}
 
 .index h2,
 .envy h1 {
@@ -203,22 +220,4 @@ div#box {
    nav {
       font-size: 1.2vw;
    }
-}
-
-#wrapper {
-   width: 100%;
-   height: auto;
-   background-color: lightgray;
-   margin: 0 auto;
-   overflow: hidden;
-}
-
-#canvas {
-   width: 100%;
-   height: 500px;
-   background-color: #ccc;
-   border-style: dotted;
-   border-color: gray;
-   border-radius: 10px;
-   margin: 30px auto;
 }
