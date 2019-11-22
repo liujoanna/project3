@@ -184,7 +184,7 @@ div#box {
    body {
       background-color: lightblue;
    }
-   .envy div {
+   .envy div#default {
       background-color: pink;
       border-color: whitesmoke;
       border-style: dashed;
@@ -210,7 +210,7 @@ div#box {
    .envy {
       background-image: url('bone.jpg');
    }
-   .envy div {
+   .envy div#default {
       background-color: whitesmoke;
       border-color: pink;
       border-style: dotted;
