@@ -232,7 +232,7 @@ div#box {
 }
 
 .slidercontainer {
-   max-width: 1000px;
+   max-width: 500px;
    position: relative;
    margin: 0;
 }
@@ -263,7 +263,7 @@ div#box {
 }
 
 .content {
-   color: #eff5d4;
+   color: darkred;
    font-size: 30px;
    padding: 8px 12px;
    position: absolute;
