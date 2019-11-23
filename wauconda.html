@@ -35,52 +35,50 @@
          src="https://www.youtube.com/embed/MDEg9oxpF6Y">
       </iframe>
       <!-- slider code -->
-            <div class="slidercontainer">
-              <div class="showSlide fade">
-                  <img src="images/wauconda1.jpg" />
-                  <div class="content">Dock's Bar and Grill</div>
-              </div>
-              <div class="showSlide fade">
-                  <img src="images/wauconda2.jpg" />
-                  <div class="content">Town Population</div>
-              </div>
+      <div class="slidercontainer">
+      <div class="showSlide fade">
+      <img src="images/wauconda1.jpg" />
+      <div class="content">Dock's Bar and Grill</div>
+      </div>
+      <div class="showSlide fade">
+      <img src="images/wauconda2.jpg" />
+      <div class="content">Town Population</div>
+      </div>
+      <div class="showSlide fade">
+      <img src="images/wauconda3.jpg" />
+      <div class="content">Water Tower</div>
+      </div>
+      <div class="showSlide fade">
+      <img src="images/wauconda4.jpg" />
+      <div class="content">Town Hall</div>
+      </div>
+      <!-- Navigation arrows -->
+      <a class="left" onclick="nextSlide(-1)">❮</a>
+      <a class="right" onclick="nextSlide(1)">❯</a>
+      </div>
+      <script type="text/javascript">
+         var slide_index = 1;
+         displaySlides(slide_index);
 
-              <div class="showSlide fade">
-                  <img src="images/wauconda3.jpg" />
-                  <div class="content">Water Tower</div>
-              </div>
-              <div class="showSlide fade">
-                  <img src="images/wauconda4.jpg" />
-                  <div class="content">Town Hall</div>
-              </div>
-              <!-- Navigation arrows -->
-              <a class="left" onclick="nextSlide(-1)">❮</a>
-              <a class="right" onclick="nextSlide(1)">❯</a>
-          </div>
-        <script type="text/javascript">
-              var slide_index = 1;
-              displaySlides(slide_index);
+         function nextSlide(n) {
+             displaySlides(slide_index += n);
+         }
 
-              function nextSlide(n) {
-                  displaySlides(slide_index += n);
-              }
+         function currentSlide(n) {
+             displaySlides(slide_index = n);
+         }
 
-              function currentSlide(n) {
-                  displaySlides(slide_index = n);
-              }
-
-              function displaySlides(n) {
-                  var i;
-                  var slides = document.getElementsByClassName("showSlide");
-                  if (n > slides.length) { slide_index = 1 }
-                  if (n < 1) { slide_index = slides.length }
-                  for (i = 0; i < slides.length; i++) {
-                      slides[i].style.display = "none";
-                  }
-                  slides[slide_index - 1].style.display = "block";
-              }
-          </script>
-
+         function displaySlides(n) {
+             var i;
+             var slides = document.getElementsByClassName("showSlide");
+             if (n > slides.length) { slide_index = 1 }
+             if (n < 1) { slide_index = slides.length }
+             for (i = 0; i < slides.length; i++) {
+                 slides[i].style.display = "none";
+             }
+             slides[slide_index - 1].style.display = "block";
+         }
+      </script>
       </div>
       </div>
    </body>

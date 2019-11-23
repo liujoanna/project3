@@ -4,6 +4,7 @@
 
 
 /*different style elements*/
+
 body {
    background-color: whitesmoke;
 }
@@ -99,7 +100,6 @@ div#box {
    filter: alpha(opacity=40);
 }
 
-
 .index h2,
 .envy h1 {
    text-decoration: underline;
@@ -154,6 +154,7 @@ div#box {
    color: lightslategray;
    text-decoration: none;
 }
+
 #wrapper {
    width: 100%;
    height: auto;
@@ -222,7 +223,9 @@ div#box {
    }
 }
 
+
 /* slider code */
+
 .showSlide {
    display: none;
 }
