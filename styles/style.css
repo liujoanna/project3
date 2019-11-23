@@ -95,7 +95,7 @@ div#box {
    margin: 30px;
    background-color: #ffffff;
    border: 1px solid black;
-   opacity: 0.6;
+   opacity: 0.7;
    filter: alpha(opacity=40);
 }
 
@@ -221,5 +221,3 @@ div#box {
       font-size: 1.2vw;
    }
 }
-
-/* slider code */
